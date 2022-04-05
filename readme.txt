@@ -302,6 +302,7 @@ mvn deploy 部署主程序(会把本工程打包，按照本工程的坐标保�
       <scope>test</scope>
     </dependency>
 
+    默认是compile
 	<dependency>
       <groupId>a</groupId>
       <artifactId>b</artifactId>   b.jar
@@ -313,7 +314,8 @@ mvn deploy 部署主程序(会把本工程打包，按照本工程的坐标保�
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
       <version>3.1.0</version>          servlet.jar
-      <scope>provided</scope> 提供者                为什么不需要，因为这里我们的tomcat里面其实是有这些jar包的，所以我们自己是不需要准备的
+      <scope>provided</scope> 提供者 别人有 我用别人的就行不用我自己带
+      为什么不需要，因为这里我们的tomcat里面其实是有这些jar包的，所以我们自己是不需要准备的
     </dependency>
 
 
