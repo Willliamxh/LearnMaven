@@ -8,9 +8,14 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <!--坐标：唯一值， 在互联网中唯一标识一个项目的-->
+    <!--<groupId>公司域名的倒写</groupId>-->
+    <!--<artifactId>自定义项目名称</artifactId>-->
+    <!--<version>自定版本号</version>-->
+    <groupId>com.bjp</groupId>
     <artifactId>HelloMaven</artifactId>
     <name>HelloMaven</name>
+    <version>1.0-SNAPSHOT</version>
 
 
     <properties>

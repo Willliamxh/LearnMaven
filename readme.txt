@@ -247,9 +247,9 @@ maven
 
 
 	mvn clean 清理(会删除原来编译和测试的目录，即 target 目录，但是已经 install 到仓库里的包不会删除)
-mvn compile 编译主程序(会在当前目录下生成一个 target,里边存放编译主程序之后生成的字节码文件)
+mvn compile 编译主程序(main/java)(会在当前目录下生成一个 target,里边存放编译主程序之后生成的字节码文件)
 mvn test-compile
-编译测试程序(会在当前目录下生成一个 target,里边存放编译测试程序之后生成的字节码文件)
+编译测试程序(test/java)(会在当前目录下生成一个 target,里边存放编译测试程序之后生成的字节码文件)
 mvn test 测试(会生成一个目录surefire-reports，保存测试结果)
 mvn package
 打包主程序(会编译、编译测试、测试、并且按照 pom.xml 配置把主程序打包生成 jar 包或者 war 包)
